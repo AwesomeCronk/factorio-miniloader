@@ -1,8 +1,8 @@
 {
-	"name": "miniloader",
-	"version": "1.15.7",
-	"factorio_version": "1.1",
-	"title": "Miniloader",
+	"name": "miniloader-cronk",
+	"version": "2.0.0",
+	"factorio_version": "2.0",
+	"title": "Miniloader (Cronk's port)",
 	"author": "Therax",
 	"homepage": "https://forums.factorio.com/viewtopic.php?f=93&t=54343",
 	"description": "Compact and UPS-friendly 1x1 loaders.  Works with train cargo wagons, circuits, filters, and Bob's faster belts.",

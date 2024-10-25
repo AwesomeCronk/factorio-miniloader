@@ -5,46 +5,46 @@ local ingredient_sets = {
   -- 105 I, 27 C
   ["miniloader"] = {
     {
-      {"underground-belt", 1},
-      {"forging-steel", 2},
-      {"mechanism-1", 1},
+      {type = "item", name = "underground-belt", quantity = 1},
+      {type = "item", name = "forging-steel",    quantity = 2},
+      {type = "item", name = "mechanism-1",      quantity = 1},
     },
     {
-      {"underground-belt", 1},
-      {"steel-plate", 8},
-      {"fast-inserter", 6},
+      {type = "item", name = "underground-belt", quantity = 1},
+      {type = "item", name = "steel-plate",      quantity = 8},
+      {type = "item", name = "fast-inserter",    quantity = 6},
     },
   },
   -- 358 I, 128 C, 89 O
   ["fast-miniloader"] = {
     {
-      {"miniloader", 1},
-      {"fast-underground-belt", 1},
-      {"gear-2", 2},
+      {type = "item", name = "miniloader",            quantity = 1},
+      {type = "item", name = "fast-underground-belt", quantity = 1},
+      {type = "item", name = "gear-2",                quantity = 2},
     },
     {
-      {"miniloader", 1},
-      {"fast-underground-belt", 1},
-      {"stack-inserter", 4},
+      {type = "item", name = "miniloader",            quantity = 1},
+      {type = "item", name = "fast-underground-belt", quantity = 1},
+      {type = "item", name = "bulk-inserter",         quantity = 4},
     },
   },
   -- 628 I, 384 C, 174 O
   ["express-miniloader"] = {
     {
-      {"expedited-miniloader", 1},
-      {"express-underground-belt", 1},
-      {"forging-stainless", 2},
+      {type = "item", name = "expedited-miniloader",     quantity = 1},
+      {type = "item", name = "express-underground-belt", quantity = 1},
+      {type = "item", name = "forging-stainless",        quantity = 2},
     },
     {
-      {"fast-miniloader", 1},
-      {"express-underground-belt", 1},
-      {"stack-inserter", 2},
+      {type = "item", name = "fast-miniloader",          quantity = 1},
+      {type = "item", name = "express-underground-belt", quantity = 1},
+      {type = "item", name = "bulk-inserter",            quantity = 2},
     },
   },
 
   ["chute-miniloader"] = {
     {
-      {"iron-plate", 4}
+      {type = "item", name = "iron-plate", quantity = 4}
     },
   },
 
